@@ -14,17 +14,15 @@ export function getRouteName() {
 export function isInvalidRoute() {
     if (!inBrowser) return false
     const routeName = getRouteName()
-    if (routeName == 'v3.html' || routeName == 'v3') {
-        redirect('/v3/')
-    } else if (routeName == 'themes.html' || routeName == 'themes') {
-        redirect('/themes/')
-    } else if (routeName == 'themes/v3.html' || routeName == 'themes/v3') {
-        redirect('/themes/v3/')
+    if (routeName == 'discord-dashboard/v3.html' || routeName == 'discord-dashboard/v3') {
+        redirect('/discord-dashboard/v3/')
+    } else if (routeName == 'discord-dashboard/v3/themes.html' || routeName == 'discord-dashboard/v3/themes') {
+        redirect('/discord-dashboard/v3/themes/')
     } else if (
-        routeName == 'themes/v3/kardex.html' ||
-        routeName == 'themes/v3/kardex'
+        routeName == 'discord-dashboard/v3/themes/kardex' ||
+        routeName == 'discord-dashboard/v3/themes/kardex'
     ) {
-        redirect('/themes/v3/kardex/')
+        redirect('/discord-dashboard/v3/themes/kardex/')
     }
 }
 
