@@ -1,8 +1,8 @@
 export default {
-    title: 'Discord-Dashboard Docs',
-    description: 'Discord-Dashboard project documentation.',
+    title: 'Assistants Center Documentation',
+    description: 'Assistants Center Documentation Projects\' Documentation',
     themeConfig: {
-        siteTitle: 'Discord Dashboard',
+        siteTitle: 'Assistants Center Documentation',
         nav: [
             { text: 'Guide', link: '/guide' },
             { text: 'Configs', link: '/configs' },
