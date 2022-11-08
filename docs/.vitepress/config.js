@@ -94,7 +94,62 @@ export default {
                 },
                 {
                     text: 'Form Types',
-                    items: [],
+                    items: [
+                        {
+                            text: 'Text Input',
+                            link: '/discord-dashboard/v3/form-types/textinput',
+                        },
+                        {
+                            text: 'Text Area',
+                            link: '/discord-dashboard/v3/form-types/textarea',
+                        },
+
+
+                        {
+                            text: 'Checkbox',
+                            link: '/discord-dashboard/v3/form-types/checkbox'
+                        },
+                        {
+                            text: 'Switch',
+                            link: '/discord-dashboard/v3/form-types/switch'
+                        },
+
+
+                        {
+                            text: 'Select',
+                            link: '/discord-dashboard/v3/form-types/select'
+                        },
+                        {
+                            text: 'Multiple Select',
+                            link: '/discord-dashboard/v3/form-types/multiple-select'
+                        },
+
+
+                        {
+                            text: 'Channel Select',
+                            link: '/discord-dashboard/v3/form-types/channel-select'
+                        },
+                        {
+                            text: 'Multiple Channel Select',
+                            link: '/discord-dashboard/v3/form-types/multiple-channel-select'
+                        },
+
+
+                        {
+                            text: 'Role Select',
+                            link: '/discord-dashboard/v3/form-types/role-select'
+                        },
+                        {
+                            text: 'Multiple Role Select',
+                            link: '/discord-dashboard/v3/form-types/multiple-role-select'
+                        },
+
+
+                        {
+                            text: 'Custom Component',
+                            link: '/discord-dashboard/v3/form-types/custom-component'
+                        }
+                    ],
                 },
                 {
                     text: 'Premium',

@@ -46,6 +46,15 @@ The options folder structure is as follows:
 - <Badge type="info" text="OPTIONAL" /> <Badge type="tip" text="DEFAULT NULL" /> `permissionsValidate: async ({guild, member}) => string | null` - A function that checks whether the user should have the option to manage the option or whether it should display it with an error. The text returned by this function is treated as the error text and the option is disabled, returning null means editing is allowed,
   <hr/>
 - <Badge type="info" text="OPTIONAL" /> <Badge type="tip" text="DEFAULT NULL" /> `serverSideValidation: async (newData, {guild, member}) => string | null` - The function checks the settings sent to the Dashboard (after clicking the Submit button). Returning null means no error, returning the text will display it as an error for the given option (this option will not call the set function, but all others - unless they got an error here - will be saved).
+
+> Want to disable single option? 
+> 
+> Just set `.disabled.js` as the extension of the file.
+
+> Want to disable single option but still display it (as disabled)? 
+> 
+> Use `setGlobalDisabled` in the FormType Builder.
+
 ### CustomComponent FormType
 
 - <Badge type="warning" text="REQUIRED" /> `name: string` - Option name, shall be just string,

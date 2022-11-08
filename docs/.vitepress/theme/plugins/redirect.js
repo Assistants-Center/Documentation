@@ -20,9 +20,14 @@ export function isInvalidRoute() {
         redirect('/discord-dashboard/v3/themes/')
     } else if (
         routeName == 'discord-dashboard/v3/themes/kardex' ||
-        routeName == 'discord-dashboard/v3/themes/kardex'
+        routeName == 'discord-dashboard/v3/themes/kardex.html'
     ) {
         redirect('/discord-dashboard/v3/themes/kardex/')
+    } else if (
+        routeName == 'discord-dashboard/v3/form-types' ||
+        routeName == 'discord-dashboard/v3/form-types.html'
+    ) {
+        redirect('/discord-dashboard/v3/form-types/')
     }
 }
 
