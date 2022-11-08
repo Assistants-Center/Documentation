@@ -1,6 +1,7 @@
 export default {
     title: 'Assistants Center Documentation',
     description: 'Assistants Center Documentation Projects\' Documentation',
+    cleanUrls: 'with-subfolders',
     themeConfig: {
         siteTitle: 'Assistants Center Docs',
         nav: [
