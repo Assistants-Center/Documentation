@@ -2,14 +2,14 @@ export default {
     title: 'Assistants Center Documentation',
     description: 'Assistants Center Documentation Projects\' Documentation',
     themeConfig: {
-        siteTitle: 'Assistants Center Documentation',
+        siteTitle: 'Assistants Center Docs',
         nav: [
             { text: 'Guide', link: '/guide' },
             { text: 'Configs', link: '/configs' },
             { text: 'Changelog', link: 'https://github.com/...' },
         ],
         sidebar: {
-            '/v3': [
+            '/discord-dashboard/v3': [
                 {
                     text: 'Discord-Dashboard v3 Documentation',
                     items: [],
@@ -17,13 +17,13 @@ export default {
                 {
                     text: 'Getting Started',
                     items: [
-                        { text: 'Introduction', link: '/v3/' },
-                        { text: 'Requirements', link: '/v3/requirements' },
+                        { text: 'Introduction', link: '/discord-dashboard/v3/' },
+                        { text: 'Requirements', link: '/discord-dashboard/v3/requirements' },
                         {
                             text: 'Creating Project Instance',
-                            link: '/v3/creating-project-instance',
+                            link: '/discord-dashboard/v3/creating-project-instance',
                         },
-                        { text: 'Installation', link: '/v3/installation' },
+                        { text: 'Installation', link: '/discord-dashboard/v3/installation' },
                     ],
                 },
                 {
@@ -31,63 +31,63 @@ export default {
                     items: [
                         {
                             text: 'Initiation',
-                            link: '/v3/configuration/initiation',
+                            link: '/discord-dashboard/v3/configuration/initiation',
                         },
                         {
                             text: 'Development Mode',
-                            link: '/v3/configuration/development-mode',
+                            link: '/discord-dashboard/v3/configuration/development-mode',
                         },
                         {
                             text: 'Theme and Engine',
-                            link: '/v3/configuration/theme-and-engine',
+                            link: '/discord-dashboard/v3//configuration/theme-and-engine',
                         },
                         {
                             text: 'Register the Project',
-                            link: '/v3/configuration/register-the-project',
+                            link: '/discord-dashboard/v3/configuration/register-the-project',
                         },
                         {
                             text: 'Discord.js Client',
-                            link: '/v3/configuration/discord-js-client',
+                            link: '/discord-dashboard/v3/configuration/discord-js-client',
                         },
                         {
                             text: 'Client Credentials',
-                            link: '/v3/configuration/client-credentials',
+                            link: '/discord-dashboard/v3/configuration/client-credentials',
                         },
                         {
                             text: 'Redirect URI',
-                            link: '/v3/configuration/redirect-uri',
+                            link: '/discord-dashboard/v3/configuration/redirect-uri',
                         },
                         {
                             text: 'Options Folder',
-                            link: '/v3/configuration/options-folder',
+                            link: '/discord-dashboard/v3/configuration/options-folder',
                         },
                         {
                             text: 'Required Permissions',
-                            link: '/v3/configuration/required-permissions',
+                            link: '/discord-dashboard/v3/configuration/required-permissions',
                         },
                         {
                             text: 'User Static',
-                            link: '/v3/configuration/user-static',
+                            link: '/discord-dashboard/v3/configuration/user-static',
                         },
                         {
                             text: 'Session Settings',
-                            link: '/v3/configuration/session-settings',
+                            link: '/discord-dashboard/v3/configuration/session-settings',
                         },
                         {
                             text: 'Administrators',
-                            link: '/v3/configuration/administrators',
+                            link: '/discord-dashboard/v3/configuration/administrators',
                         },
                         {
                             text: 'Fastify Utilities',
-                            link: '/v3/configuration/fastify-utilities',
+                            link: '/discord-dashboard/v3/configuration/fastify-utilities',
                         },
                         {
                             text: 'Port',
-                            link: '/v3/configuration/port',
+                            link: '/discord-dashboard/v3/configuration/port',
                         },
                         {
                             text: 'Starting the Dashboard',
-                            link: '/v3/configuration/starting-the-dashboard',
+                            link: '/discord-dashboard/v3/configuration/starting-the-dashboard',
                         },
                     ],
                 },
@@ -100,7 +100,7 @@ export default {
                     items: [],
                 },
             ],
-            '/themes/v3/kardex': [
+            '/discord-dashboard/v3/themes/kardex': [
                 {
                     text: 'Discord-Dashboard v3 Kardex Theme Documentation',
                     items: [],

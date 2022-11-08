@@ -2,19 +2,19 @@
 layout: home
 
 hero:
-  name: Discord-Dashboard
-  text: Documentation
-  tagline: The easiest way to create a Dashboard for your Discord bot.
+  name: Assistants Center
+  text: Projects' Documentations
+  tagline: Let us do the job for you.
   actions:
   - theme: brand
-    text: Get Started
-    link: /v3/
+    text: Discord-Dashboard v3
+    link: /discord-dashboard/v3/
+  - theme: brand
+    text: Kardex Theme
+    link: /discord-dashboard/v3/themes/kardex/
   - theme: alt
     text: View on GitHub
     link: https://github.com/Assistants-Center/Discord-Dashboard
-  - theme: alt
-    text: v2 Documentation
-    link: https://dbd-docs.assistantscenter.com/v2
 
 features:
   - icon: 
