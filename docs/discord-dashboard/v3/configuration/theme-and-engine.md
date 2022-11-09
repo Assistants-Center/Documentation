@@ -13,8 +13,8 @@ Once you know which Theme and Engine to use, define the Engine and add the Theme
 ```js
 const { Dashboard, Engines } = require('discord-dashboard')
 
-const DefaultTheme = require('defaultthemetobeupdated')
-const Theme = new DefaultTheme.Provider()
+const Kardex = require('dbd-kardex-theme')
+const Theme = new Kardex.Provider()
 
 new Dashboard(Engines.NEXT)
     ...
