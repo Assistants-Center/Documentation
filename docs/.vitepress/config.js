@@ -1,4 +1,7 @@
 export default {
+    head: [
+        ['script', { async: '', src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3673520795587574', crossorigin: 'anonymous' }]
+    ],
     title: 'Assistants Center Documentation',
     description: 'Assistants Center Documentation Projects\' Documentation',
     cleanUrls: 'with-subfolders',
