@@ -1,4 +1,4 @@
-# Text Input
+# Text Input <Badge type="info" text="FREE" />
 
 ```js
 const { TextInput } = require('discord-dashboard').FormTypes

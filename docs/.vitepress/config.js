@@ -148,6 +148,11 @@ export default {
                         {
                             text: 'Custom Component',
                             link: '/discord-dashboard/v3/form-types/custom-component'
+                        },
+
+                        {
+                            text: 'Embed Builder',
+                            link: '/discord-dashboard/v3/form-types/embed-builder'
                         }
                     ],
                 },

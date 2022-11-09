@@ -1,4 +1,4 @@
-# Text Area
+# Text Area <Badge type="info" text="FREE" />
 
 ```js
 const { TextArea } = require('discord-dashboard').FormTypes
