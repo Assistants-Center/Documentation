@@ -1,0 +1,1 @@
+import{_ as a,c as s,o as n,e}from"./app.adc0d586.js";const m=JSON.parse('{"title":"Installation","description":"","frontmatter":{},"headers":[],"relativePath":"discord-dashboard/v3/installation.md"}'),t={name:"discord-dashboard/v3/installation.md"},l=e("",7),o=[l];function i(d,c,r,p,_,h){return n(),s("div",null,o)}const y=a(t,[["render",i]]);export{m as __pageData,y as default};
