@@ -40,7 +40,7 @@ export default {
                         },
                         {
                             text: 'Theme and Engine',
-                            link: '/discord-dashboard/v3//configuration/theme-and-engine',
+                            link: '/discord-dashboard/v3/configuration/theme-and-engine',
                         },
                         {
                             text: 'Register the Project',
