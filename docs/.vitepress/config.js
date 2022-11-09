@@ -2,7 +2,9 @@ export default {
     title: 'Assistants Center Documentation',
     description: 'Assistants Center Documentation Projects\' Documentation',
     cleanUrls: 'with-subfolders',
+    lastUpdated: true,
     themeConfig: {
+        lastUpdatedText: 'Last Updated',
         siteTitle: 'Assistants Center Docs',
         nav: [
             { text: 'Guide', link: '/guide' },
