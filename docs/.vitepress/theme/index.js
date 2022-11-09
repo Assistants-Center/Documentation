@@ -10,6 +10,8 @@ const theme = {
                 redirect()
             }
         }
+
+        DefaultTheme.enhanceApp({ app, router })
     },
 }
 
