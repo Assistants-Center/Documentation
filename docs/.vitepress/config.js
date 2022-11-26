@@ -25,6 +25,7 @@ export default {
                         { text: 'Introduction', link: '/discord-dashboard/v2/' },
                         { text: 'Code Example', link: '/discord-dashboard/v2/code-example' },
                         { text: 'Get Help', link: '/discord-dashboard/v2/get-help' },
+                        { text: 'Video Tutorials', link: "/discord-dashboard/v2/video-tutorials" },
                         { text: 'Installation', link: '/discord-dashboard/v2/installation' },
                         { text: 'First Steps', link: '/discord-dashboard/v2/first-steps' },
                         { text: 'Themes', link: '/discord-dashboard/v2/themes' },
