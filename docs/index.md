@@ -7,26 +7,23 @@ hero:
   tagline: Let us do the job for you.
   actions:
   - theme: brand
-    text: Discord-Dashboard v3
-    link: /discord-dashboard/v3/
-  - theme: brand
-    text: Kardex Theme
-    link: /discord-dashboard/v3/themes/kardex/
+    text: Discord-Dashboard v2
+    link: /discord-dashboard/v2/
   - theme: alt
-    text: View on GitHub
-    link: https://github.com/Assistants-Center/Discord-Dashboard
+    text: View us on GitHub
+    link: https://github.com/Assistants-Center
 
 features:
   - icon: 
-    title: Vite, The DX that can't be beat
-    details: Lorem ipsum...
+    title: Courses
+    details: We have prepared (and are preparing) for you continuously programming courses in languages such as Python, JavaScript, C++, C# and much more!
   - icon: 
-    title: Power of Vue meets Markdown
-    details: Lorem ipsum...
+    title: OpenSource
+    details: Assistant Centre has prepared a number of OpenSource projects for you to help you implement your own ideas. And all of this for the best price. Free.
   - icon: 
-    title: Simple and minimal, always
-    details: Lorem ipsum...
+    title: APIs
+    details: Are you missing a particular API tool? Automate your work with us in a very easy way! Auth system, Image CDN, and much more with Assistants Center!
   - icon:
-    title: Simple and minimal, always
-    details: Lorem ipsum...
+    title: Discord Support
+    details: Can't get your head around something? Looking for a start-up idea or lacking programmers? Join our passionate Discord Server and find people to work with!
 ---

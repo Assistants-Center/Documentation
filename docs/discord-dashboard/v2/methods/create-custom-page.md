@@ -1,0 +1,78 @@
+# Create Custom Page
+
+This method allows you to create a custom page type. This is useful if you want to create a page that is not passed within the theme.
+
+There are 3 types of Custom Pages: redirect to another page, custom HTML and JSON Api.
+
+-`endpoint` is stuff after url to your project. For example, endpoint: `/test/stuff` will be accessible from the `localhost/test/stuff` URL. Localhost can be also your domain or IP adress.
+
+-`getDataFunction` function is function to get data to return. For redirect, it will be an URL string. For custom HTML, it will be HTML string. For JSON Api, it will be an JSON Object.
+
+Where `user` is logged-in user or null.
+
+<hr/>
+
+#### Redirect to URL
+
+```js
+DBD.customPagesTypes.redirectToUrl(
+    endpoint: String, 
+    getDataFunction: Function({user})<String>
+),
+```
+
+<hr/>
+
+
+#### Render HTMl
+
+```js
+DBD.customPagesTypes.renderHtml(
+    endpoint: String, 
+    getDataFunction: Function({user})<String>
+),
+```
+
+<hr/>
+
+#### Send JSON
+
+```js
+DBD.customPagesTypes.sendJson(
+    endpoint: String, 
+    getDataFunction: Function({user})<Object>
+),
+```
+
+<hr/>
+
+#### Usage Example
+
+```js
+    customPages: [
+        DBD.customPagesTypes.redirectToUrl('/redirect-to-foo', ({user}) => {
+            if(user.id)return `https://foo.com/?user=${user.id}`;
+            return "https://foo.com/?user=false";
+        }),
+        DBD.customPagesTypes.renderHtml('/html-render', ({user}) => {
+            return `
+            <!DOCTYPE html>
+            <html>
+                <head>
+                    <title>Test</title>
+                </head>
+                <body>
+                    <h1>${user.id ? `Hello, ${user.username}!` : `You are not logged in.`}</h1>
+                </body>
+            </html>
+            `
+        }),
+        DBD.customPagesTypes.sendJson('/json-test', ({user}) => {
+            return {
+                error: user.id ? false : true,
+                message: user.id ? null : "User not logged in.",
+                user: user
+            };
+        })
+    ]
+```

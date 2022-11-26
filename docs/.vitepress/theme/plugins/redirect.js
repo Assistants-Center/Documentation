@@ -28,6 +28,11 @@ export function isInvalidRoute() {
         routeName == 'discord-dashboard/v3/form-types.html'
     ) {
         redirect('/discord-dashboard/v3/form-types/')
+    }else if(
+        routeName == 'discord-dashboard/v2' ||
+        routeName == 'discord-dashboard/v2.html'
+    ){
+        redirect('/discord-dashboard/v2/')
     }
 }
 
