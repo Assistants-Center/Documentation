@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./app.c5917f2e.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"discord-dashboard/v2/config.md","lastUpdated":1669483744000}'),o={name:"discord-dashboard/v2/config.md"};function r(s,c,d,n,i,p){return a(),t("div")}const m=e(o,[["render",r]]);export{f as __pageData,m as default};
