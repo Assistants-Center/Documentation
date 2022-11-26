@@ -28,7 +28,7 @@ export default {
                         { text: 'Video Tutorials', link: "/discord-dashboard/v2/video-tutorials" },
                         { text: 'Installation', link: '/discord-dashboard/v2/installation' },
                         { text: 'First Steps', link: '/discord-dashboard/v2/first-steps' },
-                        { text: 'Themes', link: '/discord-dashboard/v2/themes' },
+                        { text: 'Themes Available', link: '/discord-dashboard/v2/themes' },
                     ]
                 },
                 {

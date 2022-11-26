@@ -11,4 +11,4 @@ Add to Discord-Dashboard Config:
 |--------|----------------------|---------------------------------|
 | theme  | Object (ThemeModule) | Discord-Dashboard theme module. |
 
-Discord-Dashboard themes are listed in the <a href="#/?id=themes">Themes</a> section.
+Discord-Dashboard themes are listed in the <a href="/discord-dashboard/v2/themes">Themes</a> section.

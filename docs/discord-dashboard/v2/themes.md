@@ -1,4 +1,4 @@
-# Themes
+# Themes Available
 
 The best thing about our Dashboard - Themes!
 
