@@ -229,6 +229,41 @@ export default {
                     items: [],
                 },
             ],
+            '/discord-multi-handler/': [
+                {
+                    text: 'Discord-Multi-Handler Documentation',
+                    items: [
+                        {
+                            text: 'Getting Started',
+                            link: '/discord-multi-handler/getting-started/',
+                            items: [
+                                { text: 'Introduction', link: '/discord-multi-handler/getting-started/' },
+                                { text: 'Installation', link: '/discord-multi-handler/getting-started/installation' },
+                                { text: 'Basic Setup', link: '/discord-multi-handler/getting-started/basic-setup' },
+                                { text: 'Full Example', link: '/discord-multi-handler/getting-started/full-example' },
+                            ]
+                        },
+                        {
+                            text: 'Handlers',
+                            link: '/discord-multi-handler/handlers/',
+                            items: [
+                                { text: 'Command', link: '/discord-multi-handler/handlers/command/', items: [
+                                    { text: 'Fetch Commands', link: '/discord-multi-handler/handlers/command/fetch-commands' },
+                                    { text: 'Add Command', link: '/discord-multi-handler/handlers/command/add-command' },
+                                    { text: 'Reload Command', link: '/discord-multi-handler/handlers/command/reload-command' },
+                                ] },
+                                { text: 'Event', link: '/discord-multi-handler/handlers/event/', items: [
+                                    { text: 'Fetch Events', link: '/discord-multi-handler/handlers/event/fetch-events' }
+                                ] },
+                                { text: 'Function', link: '/discord-multi-handler/handlers/function/', items: [
+                                    { text: 'Fetch Functions', link: '/discord-multi-handler/handlers/function/fetch-functions' },
+                                    { text: 'Reload Function', link: '/discord-multi-handler/handlers/function/reload-function' }
+                                ] }
+                            ]
+                        }
+                    ],
+                }
+            ]
         },
         footer: {
             message: 'Released under the MIT License.',

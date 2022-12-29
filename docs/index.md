@@ -10,6 +10,9 @@ hero:
     text: Discord-Dashboard v2
     link: /discord-dashboard/v2/
   - theme: alt
+    text: Discord Handler
+    link: /discord-multi-handler/getting-started/
+  - theme: alt
     text: View us on GitHub
     link: https://github.com/Assistants-Center
 
