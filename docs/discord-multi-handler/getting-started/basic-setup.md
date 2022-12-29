@@ -153,4 +153,4 @@ To run your bot, you can use the command `node index.js` in your terminal.
 If you wish to view the full code, you can view it [here](https://github.com/Assistants-Center/discord-handler/tree/main/example/basic-cjs/).
 
 ## Next Steps
-Now that you've created a basic bot, you can now move onto the [full example](/discord-multi-handler/full-example) to introduce functions and a reload command to your bot!
+Now that you've created a basic bot, you can now move onto the [full example](/discord-multi-handler/getting-started/full-example) to introduce functions and a reload command to your bot!
