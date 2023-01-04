@@ -63,6 +63,7 @@ export default {
                 {
                     text: 'Methods',
                     items: [
+                        { text: 'Settings Handler', link: '/discord-dashboard/v2/methods/settings-handler' },
                         { text: 'Generate Sample', link: '/discord-dashboard/v2/methods/generate-sample' },
                         { text: 'Create Form Type', link: '/discord-dashboard/v2/methods/create-form-type' },
                         { text: 'Create Custom Page', link: '/discord-dashboard/v2/methods/create-custom-page' },
@@ -247,18 +248,24 @@ export default {
                             text: 'Handlers',
                             link: '/discord-multi-handler/handlers/',
                             items: [
-                                { text: 'Command', link: '/discord-multi-handler/handlers/command/', items: [
-                                    { text: 'Fetch Commands', link: '/discord-multi-handler/handlers/command/fetch-commands' },
-                                    { text: 'Add Command', link: '/discord-multi-handler/handlers/command/add-command' },
-                                    { text: 'Reload Command', link: '/discord-multi-handler/handlers/command/reload-command' },
-                                ] },
-                                { text: 'Event', link: '/discord-multi-handler/handlers/event/', items: [
-                                    { text: 'Fetch Events', link: '/discord-multi-handler/handlers/event/fetch-events' }
-                                ] },
-                                { text: 'Function', link: '/discord-multi-handler/handlers/function/', items: [
-                                    { text: 'Fetch Functions', link: '/discord-multi-handler/handlers/function/fetch-functions' },
-                                    { text: 'Reload Function', link: '/discord-multi-handler/handlers/function/reload-function' }
-                                ] }
+                                {
+                                    text: 'Command', link: '/discord-multi-handler/handlers/command/', items: [
+                                        { text: 'Fetch Commands', link: '/discord-multi-handler/handlers/command/fetch-commands' },
+                                        { text: 'Add Command', link: '/discord-multi-handler/handlers/command/add-command' },
+                                        { text: 'Reload Command', link: '/discord-multi-handler/handlers/command/reload-command' },
+                                    ]
+                                },
+                                {
+                                    text: 'Event', link: '/discord-multi-handler/handlers/event/', items: [
+                                        { text: 'Fetch Events', link: '/discord-multi-handler/handlers/event/fetch-events' }
+                                    ]
+                                },
+                                {
+                                    text: 'Function', link: '/discord-multi-handler/handlers/function/', items: [
+                                        { text: 'Fetch Functions', link: '/discord-multi-handler/handlers/function/fetch-functions' },
+                                        { text: 'Reload Function', link: '/discord-multi-handler/handlers/function/reload-function' }
+                                    ]
+                                }
                             ]
                         }
                     ],
